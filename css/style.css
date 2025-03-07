@@ -39,7 +39,7 @@ button{cursor: pointer;}
 button::-moz-focus-inner {padding:0;border:0;}
 a, a:visited{
 	text-decoration: none;
-	color: #252525;
+	/* color: #252525; */
 }
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
@@ -60,6 +60,23 @@ footer {
 	width: 1280px;
 }
 
+.__button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #252525;
+	color: #ffffff;
+	
+}
+.__arrow-button{
+	border-radius: 0 32px;
+}
+.__arrow-button::after{
+	content: url('/img/arrow_down_right.png');
+	width: 34px;
+	height: 34px;
+	transform: translateX(16px);
+}
 /*----------------------------------Header---------------------------*/
 .header {
 	width: 88px;
@@ -97,7 +114,7 @@ footer {
 .menu-link {
 	font-size: 20px;
 	line-height: 120%;
-	letter-spacing: 0%;
+	color: #252525;
 }
 
 .header-search {
@@ -108,6 +125,76 @@ footer {
 .header-shopping-icon {
 	width: 24px;
 	height: 24px;
+}
+
+/*----------------------------------Novelty---------------------------*/
+.novelty {
+	height: 936px;
+}
+
+.novelty-container {
+	height: 776px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.novelty-header {
+	width: 720px;
+	height: 263px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+
+.novelty-title {
+	font-family: Playfair Display;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 120%;
+	text-align: center;
+}
+
+.novelty-text {
+	font-size: 20px;
+	line-height: 160%;
+	text-align: center;
+}
+
+.novelty-btn {
+	width: 287px;
+	height: 74px;
+	font-family: Playfair Display SC;
+	line-height: 140%;
+	color: #ffffff;
+}
+
+.novelty-body {
+	height: 433px;
+	width: 100%;
+	display: flex;
+	gap: 16px;
+	margin: 0 0 0 -25px;
+}
+
+.novelty-image {
+	height: 100%;
+	border-radius: 0 80px;
+}
+.novelty-image:first-child {
+	width: 243.35px;
+}
+.novelty-image:nth-child(2) {
+	width: 433px;
+}
+.novelty-image:nth-child(3) {
+	width: 324.75px;
+}
+.novelty-image:last-child {
+	width: 278.07px;
 }
 
 /*----------------------------------    ---------------------------*/
