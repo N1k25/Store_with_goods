@@ -432,4 +432,42 @@ footer {
 	width: 150px;
 }
 
-/*----------------------------------      ---------------------------*/
+/*----------------------------------Achievements---------------------------*/
+.achievements {
+	height: 303px;
+}
+
+.achievements-container {
+	width: 1105px;
+	height: 143px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.achievements-item {
+	width: 240px;
+	height: 100%;
+	text-align: center;
+}
+
+.achievements-value {
+	font-size: 64px;
+	line-height: 120%;
+	letter-spacing: -2%;
+}
+
+.achievements-text {
+	font-family: Playfair Display;
+	line-height: 120%;
+	margin: 8px 0 0 0;
+}
+
+.achievements-selector {
+	width: 1px;
+	height: 100%;
+	background-color: #252525;
+	border-radius: 50%;
+}
+
+/*----------------------------------     ---------------------------*/
