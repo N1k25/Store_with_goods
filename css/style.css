@@ -138,9 +138,46 @@ footer {
 	color: #252525;
 }
 
-.header-search {
-	margin: 0 16px 0 0;
+.header-services{
+	display: flex;
+	gap: 16px;;
 }
+
+/*-------------*/
+/* .search-block {
+    position: relative;
+	width: 200px;
+}
+
+.search {
+    height: 30px;
+    width: 200px;
+    border: 3px solid #252525;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    border: 3px solid #252525;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lni::before{
+	content: url('/img/icon-search.png');
+	width: 24px;
+	height: 24px;
+} */
+/*-------------*/
 
 .header-search-icon,
 .header-shopping-icon {
@@ -717,4 +754,78 @@ footer {
 	height: 82px;
 }
 
-/*----------------------------------    ---------------------------*/
+/*----------------------------------Footer---------------------------*/
+.footer {
+	height: 374px;
+	background-color: #252525;
+	color: #ffffff;
+}
+
+.footer-container {
+	height: 214px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-connection {
+	width: 382px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.footer-logo {
+	width: 237px;
+	height: 58px;
+}
+
+.footer-copyright {
+	font-size: 20px;
+	line-height: 160%;
+}
+
+.footer-contacts {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.footer-contacts a{
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 20px;
+	line-height: 100%;
+}
+
+.footer-menu {
+	width: 818px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-menu-title {
+font-family: Playfair Display;
+	font-size: 28px;
+	line-height: 140%;
+}
+
+.footer-menu-list {
+	margin: 24px 0 0 0;
+}
+
+.footer-menu-list-item:not(:first-child) {
+	margin: 16px 0 0 0;
+}
+
+.footer-menu-link {
+	font-size: 16px;
+	line-height: 100%;
+	color: #ffffff;
+}
+.footer-menu-link:hover {
+	text-decoration: underline;
+}
+
+.footer-menu-social a:not(:last-child) {
+	margin: 0 8px 0 0;
+}
